@@ -1,11 +1,11 @@
-rm -rf ç¹ªç•«è‡ªå‹•å­˜æª”SAIå‚™ä»½betaç‰ˆ
-mkdir ç¹ªç•«è‡ªå‹•å­˜æª”SAIå‚™ä»½betaç‰ˆ
-"C:\Program Files\AutoHotkey\Compiler\ahk2exe.exe" /in main.ahk /out .\ç¹ªç•«è‡ªå‹•å­˜æª”SAIå‚™ä»½betaç‰ˆ\ç¹ªç•«è‡ªå‹•å­˜æª”SAIå‚™ä»½betaç‰ˆ.exe /icon icon.ico /cp 932
-"C:\Program Files\AutoHotkey\Compiler\ahk2exe.exe" /in register.ahk /out .\ç¹ªç•«è‡ªå‹•å­˜æª”SAIå‚™ä»½betaç‰ˆ\è¨»å†Šè‡ªå•Ÿå‹•.exe /icon icon.ico /cp 932
-"C:\Program Files\AutoHotkey\Compiler\ahk2exe.exe" /in unregist.ahk /out .\ç¹ªç•«è‡ªå‹•å­˜æª”SAIå‚™ä»½betaç‰ˆ\è¨»éŠ·è‡ªå•Ÿå‹•.exe /icon icon.ico /cp 932
-copy config.ini .\ç¹ªç•«è‡ªå‹•å­˜æª”SAIå‚™ä»½betaç‰ˆ\
-copy ä½¿ç”¨æ–¹æ³•.txt .\ç¹ªç•«è‡ªå‹•å­˜æª”SAIå‚™ä»½betaç‰ˆ\
-copy æ¢æ¬¾.txt .\ç¹ªç•«è‡ªå‹•å­˜æª”SAIå‚™ä»½betaç‰ˆ\
-mkdir .\ç¹ªç•«è‡ªå‹•å­˜æª”SAIå‚™ä»½betaç‰ˆ\backup
-zip -r .\ç¹ªç•«è‡ªå‹•å­˜æª”SAIå‚™ä»½betaç‰ˆ.zip .\ç¹ªç•«è‡ªå‹•å­˜æª”SAIå‚™ä»½betaç‰ˆ\
-copy .\ç¹ªç•«è‡ªå‹•å­˜æª”SAIå‚™ä»½betaç‰ˆzip C:\home\projects\html\hakyll\ayachi\programs\
+rm -rf Ã¸µe¦Û°Ê¦sÀÉSAI³Æ¥÷betaª©
+mkdir Ã¸µe¦Û°Ê¦sÀÉSAI³Æ¥÷betaª©
+"C:\Program Files\AutoHotkey\Compiler\ahk2exe.exe" /in main.ahk /out .\Ã¸µe¦Û°Ê¦sÀÉSAI³Æ¥÷betaª©\Ã¸µe¦Û°Ê¦sÀÉSAI³Æ¥÷betaª©.exe /icon icon.ico /cp 932
+"C:\Program Files\AutoHotkey\Compiler\ahk2exe.exe" /in register.ahk /out .\Ã¸µe¦Û°Ê¦sÀÉSAI³Æ¥÷betaª©\µù¥U¦Û±Ò°Ê.exe /icon icon.ico /cp 932
+"C:\Program Files\AutoHotkey\Compiler\ahk2exe.exe" /in unregist.ahk /out .\Ã¸µe¦Û°Ê¦sÀÉSAI³Æ¥÷betaª©\µù¾P¦Û±Ò°Ê.exe /icon icon.ico /cp 932
+copy config.ini .\Ã¸µe¦Û°Ê¦sÀÉSAI³Æ¥÷betaª©\
+copy ¨Ï¥Î¤èªk.txt .\Ã¸µe¦Û°Ê¦sÀÉSAI³Æ¥÷betaª©\
+copy ±ø´Ú.txt .\Ã¸µe¦Û°Ê¦sÀÉSAI³Æ¥÷betaª©\
+mkdir .\Ã¸µe¦Û°Ê¦sÀÉSAI³Æ¥÷betaª©\backup
+zip -r .\Ã¸µe¦Û°Ê¦sÀÉSAI³Æ¥÷betaª©.zip .\Ã¸µe¦Û°Ê¦sÀÉSAI³Æ¥÷betaª©\
+copy .\Ã¸µe¦Û°Ê¦sÀÉSAI³Æ¥÷betaª©zip C:\home\projects\html\hakyll\ayachi\programs\

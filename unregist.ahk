@@ -1,4 +1,4 @@
-;スタートアップに登録
-FileDelete,%A_Startup%\繪畫自動存檔.lnk
+;????????�n?
+FileDelete,%A_Startup%\ø�e�۰ʦs��.lnk
 
-MsgBox, 已成功註銷開機自啟動。
+MsgBox, �w���\���P�}���۱ҰʡC

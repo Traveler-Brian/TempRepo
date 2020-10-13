@@ -1,4 +1,4 @@
-;スタートアップに登録
-FileCreateShortcut, %A_ScriptDir%\繪畫自動存檔.exe, %A_Startup%\繪畫自動存檔.lnk
+;????????�n?
+FileCreateShortcut, %A_ScriptDir%\ø�e�۰ʦs��.exe, %A_Startup%\ø�e�۰ʦs��.lnk
 
-MsgBox, 已成功註冊開機自啟動。
+MsgBox, �w���\���U�}���۱ҰʡC
