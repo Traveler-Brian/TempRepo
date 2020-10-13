@@ -6,4 +6,5 @@
 ---
 
 原項目：Ayachigen @ [https://github.com/ayachigin/auto-save](https://github.com/ayachigin/auto-save)
+
 繁體中文翻譯：Traveler-Brian @ [https://github.com/Traveler-Brian/auto-save](https://github.com/Traveler-Brian/auto-save)
