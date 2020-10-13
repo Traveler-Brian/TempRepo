@@ -24,14 +24,14 @@ GroupAdd autosaveahk, ahk_class Tmainform
 
 #Persistent
 
-; ©“®•Û‘¶ŠÔŠu(•b)
+; è‡ªå‹•ä¿å­˜é–“éš”(ç§’)
 ;IniRead, OutputVar, Filename[, Section, Key , Default]
 IniRead, autosaveInterval, %A_ScriptDir%\config.ini, config,interval
 IniRead, threshold, %A_ScriptDir%\config.ini, config, threshold
 
-MsgBox,,‚¨ŠG‚©‚«©“®•Û‘¶, %autosaveInterval%•ªŠÔŠu‚Å%threshold%•bˆÈãè‚ª~‚Ü‚Á‚½‚ç©“®“I‚É•Û‘¶‚µ‚Ü‚·,5
+MsgBox,,ç¹ªç•«è‡ªå‹•å­˜æª”, å°‡åœ¨æ¯é–“éš”%autosaveInterval%åˆ†é˜ä»¥åŠé–’ç½®%threshold%ç§’å¾ŒåŸ·è¡Œè‡ªå‹•å­˜æª”,5
 
-;•Ï”‰Šú‰»
+;åˆå§‹åŒ–è®Šæ•¸
 autosaveInterval:=autosaveInterval*60
 threshold := threshold * 1000
 delay := 0
@@ -55,7 +55,7 @@ autosave() {
                 IfWinActive, ahk_group autosaveahk
                 {
                         send,^s
-                        ; Ÿ‚É•Û‘¶‚ğ‚İ‚é‚Ü‚Å‚ÌŠÔ(•b)
+                        ; ç›´åˆ°ä¸‹æ¬¡å˜—è©¦è‡ªå‹•å„²å­˜çš„æ™‚é–“ï¼ˆç§’ï¼‰
                         delay:=autosaveInterval
                         return
                 }
@@ -111,7 +111,7 @@ takeExt(fileName) {
 }
 
 backupCanvas(Name) {
-        MsgBox,,,ƒoƒbƒNƒAƒbƒv‚Ì€”õ’†‚Å‚·,1
+        MsgBox,,,æ­£åœ¨æº–å‚™å‚™ä»½,1
         Sleep, 30000
         WinGetTitle, Title, ahk_class %Name%
         FilePath      := getFilePath(Title)
@@ -128,10 +128,10 @@ backupCanvas(Name) {
                 FileCopy, %Source%, %Dest%
                 if ErrorLevel = 0
                 {
-                        MsgBox, ƒoƒbƒNƒAƒbƒvo—ˆ‚Ü‚µ‚½i‚½‚Ô‚ñj
+                        MsgBox, æˆåŠŸé€²è¡Œå‚™ä»½
                 }
                 else {
-                        MsgBox, ƒtƒ@ƒCƒ‹‚ÌƒRƒs[‚É¸”s‚µ‚Ü‚µ‚½
+                        MsgBox, æª”æ¡ˆè¤‡è£½å¤±æ•—
                 }
         }
 }

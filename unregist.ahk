@@ -1,4 +1,4 @@
-;ƒXƒ^[ƒgƒAƒbƒv‚É“o˜^
-FileDelete,%A_Startup%\‚¨ŠG‚©‚«Ž©“®•Û‘¶.lnk
+;ã‚¹ã‚¿ãƒ¼ãƒˆã‚¢ãƒƒãƒ—ã«ç™»éŒ²
+FileDelete,%A_Startup%\ç¹ªç•«è‡ªå‹•å­˜æª”.lnk
 
-MsgBox, ‚¨ŠG‚©‚«Ž©“®•Û‘¶‚ðƒXƒ^[ƒgƒAƒbƒv‚©‚çíœ‚µ‚Ü‚µ‚½B
+MsgBox, å·²æˆåŠŸè¨»éŠ·é–‹æ©Ÿè‡ªå•Ÿå‹•ã€‚
