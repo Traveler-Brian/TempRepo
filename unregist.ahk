@@ -1,4 +1,4 @@
 ;????????登?
-FileDelete,%A_Startup%\繪畫自動存檔.lnk
+FileDelete,%A_Startup%\繪畫自動存檔SAI備份beta版lnk
 
 MsgBox, 已成功註銷開機自啟動。
